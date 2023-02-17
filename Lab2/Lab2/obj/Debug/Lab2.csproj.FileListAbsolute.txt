@@ -11,3 +11,16 @@ C:\College\COMP212\Lab2\Lab2\obj\Debug\Lab2.pdb
 C:\College\COMP212\Lab2\Lab2\obj\Debug\Lab2.ManageSubscription.resources
 C:\College\COMP212\Lab2\Lab2\obj\Debug\Lab2.NotificationSubscriptionManagercs.resources
 C:\College\COMP212\Lab2\Lab2\obj\Debug\Lab2.PublishNotification.resources
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.csproj.SuggestedBindingRedirects.cache
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.ManageSubscription.resources
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.NotificationSubscriptionManagercs.resources
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.PublishNotification.resources
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\College\COMP212\COMP212-Sec-6-Group-2\Lab2\Lab2\obj\Debug\Lab2.pdb
