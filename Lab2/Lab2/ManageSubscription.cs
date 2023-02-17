@@ -74,7 +74,6 @@ namespace Lab2
             presenter.notificationHandler.Invoke(text);
             presenter.notificationHandler = null;
         }
-        //Shameel
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
@@ -162,9 +161,6 @@ namespace Lab2
             }
         }
 
-        private void txtTextNotification_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

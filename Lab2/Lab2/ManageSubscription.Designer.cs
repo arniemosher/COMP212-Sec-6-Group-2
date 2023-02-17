@@ -76,7 +76,6 @@
             this.txtTextNotification.Name = "txtTextNotification";
             this.txtTextNotification.Size = new System.Drawing.Size(150, 20);
             this.txtTextNotification.TabIndex = 3;
-            this.txtTextNotification.TextChanged += new System.EventHandler(this.txtTextNotification_TextChanged);
             // 
             // btnSubscribe
             // 
