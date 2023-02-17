@@ -22,11 +22,18 @@ namespace Lab2
         private void btnPublish_Click(object sender, EventArgs e)
         {
             string message = txtPublish.Text;
+            presenter.notificationHandler += publishMessage;
+            presenter.notificationHandler.Invoke(message);
+            presenter.notificationHandler = null;
+        }
+
+        private void publishMessage(string message)
+        {
             string result = "";
-            if (!String.IsNullOrEmpty(message)&&presenter.getPublishSatus())
+            if (!String.IsNullOrEmpty(message) && presenter.getPublishSatus())
             {
                 result = "This is a message to the following subscribers:\n";
-                if (presenter.EmailNotifications!=null && presenter.EmailNotifications.Count>0)
+                if (presenter.EmailNotifications != null && presenter.EmailNotifications.Count > 0)
                 {
                     foreach (string email in presenter.EmailNotifications)
                     {
