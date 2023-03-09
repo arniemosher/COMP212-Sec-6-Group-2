@@ -1,0 +1,16 @@
+C:\College\COMP212\Lab3\Question1\bin\Debug\Question1.exe.config
+C:\College\COMP212\Lab3\Question1\bin\Debug\Question1.exe
+C:\College\COMP212\Lab3\Question1\bin\Debug\Question1.pdb
+C:\College\COMP212\Lab3\Question1\obj\Debug\Qwestion1.csproj.AssemblyReference.cache
+C:\College\COMP212\Lab3\Question1\obj\Debug\Qwestion1.csproj.SuggestedBindingRedirects.cache
+C:\College\COMP212\Lab3\Question1\obj\Debug\MainWindow.g.cs
+C:\College\COMP212\Lab3\Question1\obj\Debug\App.g.cs
+C:\College\COMP212\Lab3\Question1\obj\Debug\Question1_MarkupCompile.cache
+C:\College\COMP212\Lab3\Question1\obj\Debug\Question1_MarkupCompile.lref
+C:\College\COMP212\Lab3\Question1\obj\Debug\MainWindow.baml
+C:\College\COMP212\Lab3\Question1\obj\Debug\Question1.g.resources
+C:\College\COMP212\Lab3\Question1\obj\Debug\Question1.Properties.Resources.resources
+C:\College\COMP212\Lab3\Question1\obj\Debug\Qwestion1.csproj.GenerateResource.cache
+C:\College\COMP212\Lab3\Question1\obj\Debug\Qwestion1.csproj.CoreCompileInputs.cache
+C:\College\COMP212\Lab3\Question1\obj\Debug\Question1.exe
+C:\College\COMP212\Lab3\Question1\obj\Debug\Question1.pdb

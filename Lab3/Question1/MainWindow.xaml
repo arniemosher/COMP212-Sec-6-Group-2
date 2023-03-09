@@ -1,0 +1,47 @@
+﻿<Window x:Class="Question1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Question1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="lstItems"
+                  Margin="5,5,5,10"
+                  Grid.Column="1" Grid.RowSpan="2">
+            <ListView.View>
+                <GridView x:Name="grdItems">
+                    <GridViewColumn Width="200" Header="Name" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Width="100" Header="Category" DisplayMemberBinding="{Binding Category}" />
+                    <GridViewColumn Width="100" Header="Price" DisplayMemberBinding="{Binding PriceTag}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!--Labels-->
+        <Label Content="Chez Pierre Menu" HorizontalAlignment="Center" FontSize="30"/>
+        <Label Name="lblTotals" Content="Totals" Grid.Column="1" Grid.Row="2"/>
+
+        <!--Comboboxes-->
+        <ComboBox Name="cmbMenuItems" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="300" Margin="0,0,0,20" FontSize="16">
+            <ComboBoxItem Content="Beverage: Soda $1.95" IsSelected="True"/>
+            <ComboBoxItem Content="Beverage: Tea $1.50"/>
+            <ComboBoxItem Content="Beverage: Coffee $1.25"/>
+            <ComboBoxItem Content="Beverage: Mineral Water $2.95"/>
+        </ComboBox>
+
+        <Button Name="btnAddItem" Click="btnAddItem_Click"  Content="Add Item" Grid.Row="1" VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <Button Name="btnRemoveItem" Click="btnRemoveItem_Click" Content="Remove Item" Grid.Row="2" VerticalAlignment="Center" Width="250" FontSize="20"/>
+
+    </Grid>
+</Window>
